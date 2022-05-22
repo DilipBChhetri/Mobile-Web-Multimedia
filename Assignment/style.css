@@ -1,0 +1,10 @@
+table{
+    width: 50%;
+}
+table, td ,th{
+    border: 1px solid green;
+    border-collapse: collapse;
+text-align: center;
+padding: 10px;
+margin: 10px;
+}

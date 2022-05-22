@@ -1,0 +1,34 @@
+.tp {
+    text-align: center;
+
+}
+.mid div{
+    text-align:left;
+    font-size:x-large;
+
+}
+table{
+    width: 90%;
+
+}
+table, td ,th{
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+form{
+    background-color: aqua;
+    border: 10px;
+    margin: 15px;
+    padding: 15px;
+}
+fieldset{
+   background-color: chocolate;
+}
+button{
+border-radius: 20px;
+    background-color: aquamarine;
+    text-align: center;
+}
