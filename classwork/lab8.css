@@ -1,0 +1,30 @@
+.descendant p{
+    color: red;
+}
+.child>p{
+    color: blue;
+}
+.adjacent+p{
+    color: aquamarine;
+}
+.general~p{
+    color: burlywood;
+}
+
+.pseudo-element p::first-letter{
+    font-size: 40px;
+}
+.pseudo-element p::first-line{
+    color: blueviolet;
+}
+.pseudo-element p::after{
+    content: url('./huummm-que-rico.gif');
+}
+#cll {
+    list-style-image: linear-gradient(red,orange,blue);
+    font-size: 20px;
+}
+
+.general{
+    background-image: linear-gradient(to right, red 10%,orange 20%,blue 70%);
+}

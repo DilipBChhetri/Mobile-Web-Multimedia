@@ -1,0 +1,27 @@
+.paragraph p img{
+    float: right;
+}
+
+.tbl::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+ .navi ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 10px;
+    
+ }
+
+ .navi ul{
+     padding: 15px;
+ }
+.navi{
+background-color: aqua;
+ }
+
+ .navi li a{
+     text-decoration: none;
+ }
+ 

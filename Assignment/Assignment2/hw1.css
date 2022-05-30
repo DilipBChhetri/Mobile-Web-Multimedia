@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    height: 250px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 600px;
+    display: inline;
+}
+
+.num{
+    color: lightblue;
+}
+h1{
+    display: inline;
+    font-size: 30px;
+    font-weight: 600px;
+    padding-left: 10px;
+
+}
+
+.main .div1 #head{
+    margin-left:10px;
+    border-left: 1px solid grey;
+}
+
+button{
+    height: 30px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 20px;
+    
+    
+}
+ #btn1{
+    background-color: purple;
+    color: aliceblue;
+    margin-left: 75px;
+}
+ #btn2{
+    background-color: aliceblue;
+    color: purple;
+    margin-left: 10px;
+}
+#mid-text{
+    display: block;
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 85px;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.nav{
+    display: flex;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 5px;
+    flex: 2;
+    cursor: pointer;
+}
+.logo:hover{
+    color: rgb(185, 185, 185);
+}
+.nav ul{
+    list-style-type: none;
+    flex: 6;
+    margin-top: 24px;
+}
+.nav li{
+    display: inline;
+}
+.nav li a{
+    text-decoration: none;
+    padding:20px 30px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    flex:2;   
+    padding: 10px;
+}
+.btn a button{
+    padding:10px 0;
+    width:100%;
+    border: 1px solid rgb(194, 194, 194);
+    margin-top: 5px;
+    margin-right: 40px;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn a button:hover{
+    background-color: rgb(241, 237, 237);
+}
+.hm{
+    border-bottom: 2px solid black;
+}
+.left-cnt{
+    padding: 130px 30px 0 30px;
+    flex: 4;
+
+}
+.left-cnt h1{
+    font-size: 65px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+.r-cnt{
+    padding: 100px 40px 0 40px;
+}
+.r-cnt img{
+    width: 100%;
+    border-radius: 15px;
+}
+ .p-cnt {
+    padding-top: 30px;
+}
+.p-cnt ,.one, .two, .three{
+    display: flex;
+}
+.p-cnt p{
+    margin-left:20px;
+    font-size: 20px;
+}
+.p-cnt svg{
+    width:4%;
+    color:rgb(74, 114, 255);
+    fill: #fff;
+}
+#s-btn{
+    color: #fff;
+    background-color: rgb(55, 119, 249);
+    border: none;
+    padding:12px 17px;
+    border-radius: 7px;
+    margin-left:-95px ;
+    cursor: pointer;     
+    font-size: 14px;
+    font-weight: 600;
+}
+#s-btn:hover{
+    background-color: rgb(7, 7, 10);
+} 
+.s-bar{
+    padding: 40px 10px;
+}
+.s-bar #textfield{
+    width: 30%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(181, 181, 181);
+}
