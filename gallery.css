@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.image-gallery{
+    float: left;
+    width: 24.9999%;
+    padding:0 6px;
+}
+.image{
+    padding: 30px;
+}
+.image img{
+    width: 100%;
+    height: auto;
+}
+@media (max-width:900px)
+{
+    .image-gallery {
+        width: 50%;
+    }
+}
+@media (max-width:480px)
+{
+    .image-gallery{
+        width: 100%;
+    }
+}

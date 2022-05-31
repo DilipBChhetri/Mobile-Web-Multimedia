@@ -1,54 +1,50 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-.main{
-    height: 250px;
-    margin: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 600px;
-    display: inline;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    color: gray;
-    display: inline;
-    font-size: 30px;
-    font-weight: 600px;
-    padding-left: 10px;
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #f3f4f6;
 }
 
-#head{
-    margin-left:10px;
+.main {
+    margin-left: 240px;
+    /* margin: auto; */
+    text-align: center;
+    width: 800px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
 }
 
-button{
-    height: 30px;
-    border-radius: 5px;
-    width: 100px;
-    margin-top: 20px;
-    
-    
-}
- #btn1{
-    background-color: blue;
-    color: white;
-    margin-left: 75px;
-}
- #btn2{
-    background-color: white;
-}
-#mid-text{
-    display: block;
-    color: gray;
-    font-size: 30px;
-    font-weight: 600px;
-    padding-left: 10px;
-    margin-left: 80px;
+h1 {
+    font-size: 50px;
+    color: #374151;
 }
 
+.btn {
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+.btn1 {
+    color: #fff;
+    background-color: #2663eb;
+}
+
+.btn2 {
+    color: #374151;
+    border: 1px solid #cfcfcf;
+    margin-left: 8px;
+}

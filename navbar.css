@@ -35,6 +35,7 @@
 li a:hover, .dropdown:hover .drpbtn{
     background-color: blueviolet;
 } 
+
 .form input{
     width: 100%;
     margin: 8px 0px;
@@ -48,6 +49,6 @@ li a:hover, .dropdown:hover .drpbtn{
 .form-left, .form-right{
     width: 49%;
     float: left;
-padding: 15px;
+    padding: 15px;
 }
 

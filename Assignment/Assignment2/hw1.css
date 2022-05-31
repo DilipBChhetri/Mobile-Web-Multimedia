@@ -1,58 +1,57 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-.main{
-    height: 250px;
-    margin: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 600px;
-    display: inline;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.num{
-    color: lightblue;
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
-h1{
-    display: inline;
-    font-size: 30px;
-    font-weight: 600px;
-    padding-left: 10px;
+
+.main {
+    margin-left: 375px;
+    /* margin: auto; */
+    display: flex;
+    align-items: flex-start;
 
 }
 
-.main .div1 #head{
-    margin-left:10px;
-    border-left: 1px solid grey;
+.div1, .div2 {
+    padding: 0 20px 20px;
 }
 
-button{
-    height: 30px;
-    border-radius: 5px;
-    width: 100px;
-    margin-top: 20px;
-    
-    
+.div1 {
+    border-right: 1px solid #e9ebef;
+    color: #473edb;
 }
- #btn1{
-    background-color: purple;
-    color: aliceblue;
-    margin-left: 75px;
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
 }
- #btn2{
-    background-color: aliceblue;
-    color: purple;
-    margin-left: 10px;
+
+p {
+    color: #8f949f;
+    margin-bottom: 50px;
 }
-#mid-text{
-    display: block;
-    color: gray;
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 85px;
+
+a {
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+.btn1 {
+    color: #fff;
+    background-color: #473edb;
+}
+
+.btn2{
+    color: #473edb;
+    background-color: #e0e7fe;
+    margin-left: 8px;
 }
