@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let employees = [
+         {
+             position:"HR",
+            name:"Anil",
+            country:"Nepal",
+            city:"Pokhara",
+            streetName:"kpt",
+            streetNumber:"320", 
+            getaddress: function(){
+                return this.city +","+ this.country+ "," + this.streetName + "," + this.streetNumber;
+            }
+        },
+         {
+             position:"Accountant",
+            name:"Rita",
+            country:"India",
+            city:"mumbai",
+            streetName:"kpt",
+            streetNumber:"310"
+        },
+        {
+            position : "Helper",
+            name : "hari",
+            country:"china",
+            city:"bejing",
+            streetName:"jpt",
+            streetNumber:"330"
+        }
+    ]
+    console.log(employees);
+        
+        </script>
+</html>
