@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .paragraph {
+    text-align: justify;
+    column-count: 2;
+    column-gap: 30px;
+    column-rule-style: solid;
+}
+.paragraph h1{
+    column-span: all;
+
+} */
+/* for responsive div */
+.div {
+    height: 300px;
+    width: 12.5%;
+    float: left;
+    border: 5px solid blue;
+}
+
+.child-div:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.one {
+    background-color: aqua;
+}
+
+.two {
+    background-color: black;
+}
+
+.three {
+    background-color: blue;
+}
+
+.four {
+    background-color: blueviolet;
+}
+
+.five {
+    background-color: brown;
+}
+
+.six {
+    background-color: olive;
+}
+
+.seven {
+    background-color: orangered;
+}
+
+.eight {
+    background-color: orchid;
+}
+
+/* Media queries starts */
+@media screen and (max-width:900px) {
+    .div {
+        width: 25%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .div {
+        width: 33.33%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .div {
+        width: 50%;
+        height: 200px;
+    }
+}
+
+@media print  {
+    .div {
+        font-size: xx-small;
+        text-align: center;
+        color: red;
+        width: 24%;
+    }
+}

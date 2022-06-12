@@ -13,6 +13,7 @@
 }
 .nav-links li a{
     text-decoration: none;
+    padding: 5px;
 }
 .drop-item a{
     display: block;
@@ -23,18 +24,37 @@
     display: none;
     position: absolute;
     min-width: 200px;
-    background-color: aqua;
+    background-color: white;
     top: 48px;
+    
 }
 .dropdown:hover .drop-item{
     display: block;
+    transition: all 1s ease-in-out;
+    color: black;
+    /* margin-top: 5px; */
 }
 .dropdown{
     position: relative;
+    
 }
-li a:hover, .dropdown:hover .drpbtn{
-    background-color: blueviolet;
+ .dropdown:hover .drpbtn{
+    border-bottom-style:solid;
+    color:black;
+    border-bottom-width: 4px;
+    background-color: green;
+
 } 
+li a{
+    margin-top: 12px;
+
+}
+li a:hover{
+    margin-top: 12px;
+    border-bottom-style:solid;
+    color:black;
+    border-bottom-width: 4px;
+}
 
 .form input{
     width: 100%;
@@ -51,4 +71,19 @@ li a:hover, .dropdown:hover .drpbtn{
     float: left;
     padding: 15px;
 }
-
+.forest img{ 
+    width: 100%;
+    height: calc(100vh - 52px);
+}
+.bck{
+    height: 600px;
+    width: 600px;
+    background: url(forest.jpg), url(task-hero.png);
+    /* background-size: 300px 200px; */
+    background-repeat: no-repeat;
+    background-position: right top, right bottom;
+    /* background-image: linear-gradient( 45deg, red, green); */
+    /* background-image: radial-gradient(  red 50%, green); */
+    background-image: conic-gradient(  red 0deg, red 60deg, green 60deg,green 120deg, blue 120deg, blue 180deg);
+    border-radius: 50%;
+}

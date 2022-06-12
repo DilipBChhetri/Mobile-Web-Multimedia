@@ -1,0 +1,33 @@
+.transition{
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid grey;
+}
+.profile{
+    width: 200px;
+    padding: 30px;
+    color: red;
+    transition:width 10s ;
+    transition-timing-function:ease-in-out;
+    border: 2px solid blue;
+}
+.profile:hover{
+    width: 600px;
+    color:#000;
+}
+
+button{
+    padding: 10px 12px;
+    background: blue;
+    color: #fff;
+    transition:  padding 0.3s;
+
+    
+}
+
+button:hover{
+padding: 12px 14px;
+background-color: #999;
+color:red;
+}

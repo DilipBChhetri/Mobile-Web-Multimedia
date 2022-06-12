@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div >
+        <p id="demo">
+
+        </p>
+        <!-- <p id="demo1">
+            I am dilip bahadur chhetri
+        </p> -->
+    </div>
+    <script>
+        // document.getElementById("demo").style.cssText = "background-color:red; color:green; font-size:40px";
+        // document.getElementById("demo1").setAttribute ( "style" , "font-size:100px; color:blue");
+
+        // var a=10;
+        // var b=20;
+        // var c=30;
+        // If statement
+        // if (a>b|| b>c|| c>a){
+        //     document.write("A is greater");
+        // }
+        // else{
+        //     document.write("B is greater" +"<br>");
+        // }
+
+        // if else
+
+        // if (a>b){
+        //     document.write("a is greater");
+        // }
+        // else if (b>c){
+        //     document.write("b is greater");
+        // }
+        // else{
+        //     document.write("c is greater");
+        // }
+        // 
+        
+        // var car = ["A","B","C","D","e","f","g","h"]
+        // var nme='';
+        // for (let i=0; i<car.length;i++){
+        //     nme+= car[i] + "<br>";
+        // }
+        // document.write(nme);
+
+        // for ( let a=1;a<=20;a++){
+        //     document.write(a + "<br>");}
+
+        let l=[
+            {
+                name:"shivam",
+                age:"19",
+                address: "pkr"
+            }, {
+                name:"tej",
+                age:"19",
+                address: "pkr"
+            }, {
+                name:"mahesh",
+                age:"19",
+                address: "pkr"
+            }, {
+                name:"jsj",
+                age:"19",
+                address: "pkr"
+            }, {
+                name:"hfhf",
+                age:"19",
+                address: "pkr"
+            }, {
+                name:"gfgfgf",
+                age:"19",
+                address: "pkr"
+            }
+        ];
+        var r=" ";
+
+        for ( let i=0;i<=l.length; i++){
+            r= l[i].name + l[i].age + l[i].address+ "<br>";
+            document.write(r);
+        }
+        document.getElementById("demo").innerHTML= r;
+    
+    </script>
+</body>
+</html>

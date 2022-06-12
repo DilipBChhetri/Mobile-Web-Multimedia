@@ -1,0 +1,48 @@
+.col{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.div2{
+    color: red;
+    height: 100px;
+    width: 100px;
+}
+.div3{
+    color: lightsalmon;
+
+   
+}.div4{
+    color: lightcoral;
+
+    
+}
+.div5{
+    color: grey;
+    
+    
+}
+.div6{
+    color: blue;
+   
+}
+ .div7{
+    color: rgb(0, 3, 3);
+
+   
+}
+ .div8{
+    color: red;
+   
+}
+ .div9{
+    color: green;
+      
+}
+.div1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+

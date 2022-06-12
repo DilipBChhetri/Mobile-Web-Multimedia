@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #emailerror,#passworderror{
+            display: none;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cls">
+        <form action="" id="login-form">
+            <label for=""> Email</label>
+            <input type="email"> <br> <br>
+            <p id="emailerror"> </p>
+
+            <label for=""> password</label>
+            <input type="password">
+            <p id="passworderror"></p>
+<br>
+            <input type="submit">
+        </form>
+        <script type="text/javascript">
+            const form = document.getElementById("login-form");
+
+            form.addEventListener('submit',function(event){
+                // console.log(event);
+                // event.preventDefault();
+                const emailEL = document.queryselector("#email");
+                const passwordPW= document.querySelector("#password");
+                const passworderror = document.querySelector("#passworderror");
+                const emailerror = document.querySelector("#emailerror");
+
+                if( emailEL.value !="" && passwordPW.value!=""){
+                    form.submit();
+                }
+                emailerror.style.display="block";
+                emailerror.textContent="Email is required";
+                passworderror.style.display="block";
+                passworderror.textContent="password is required";
+
+                // alert("hello");
+            })
+        </script>
+    </div>
+</body>
+</html>

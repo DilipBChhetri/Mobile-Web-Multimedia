@@ -1,0 +1,9 @@
+.clas {
+    column-count: 3;
+    text-align: justify;
+    column-gap: 25px;
+    column-rule-style: solid;
+}
+.clas h1{
+    column-span: all;
+}

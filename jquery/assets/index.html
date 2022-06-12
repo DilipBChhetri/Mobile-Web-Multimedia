@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Learning Wt</p>
+    <p> wating the man</p>
+    <button id="show">Show</button>
+    <button id="hide">Hide</button>
+    <button id="toggle">Toggle</button>
+    <input type="text" name="username">
+    <p> YOur name is <span id="display-name"> </span></p>
+    <script type="" src="version3.js"> </script>
+    <script>
+            $(document).ready(function(){
+
+            $("p").click(function(){
+                alert("Hi");
+            });
+            });
+            $("#show").click(function(){
+                $("p").show();
+            });
+            $("#hide").click(function(){
+                $("p").hide();
+            });
+            $("#toggle").click(function(){
+                $("p").toggle();
+            })
+
+            $("input[name=username]").keyup(function(event){
+                $("#display-name").text(event.target.value);
+            });
+
+    </script>
+
+        
+   
+    
+</body>
+</html>
